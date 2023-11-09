@@ -43,8 +43,5 @@ The 360° videos were stitched using Mistika VR.
 The tools provided in this repository can be used to download the shared videos that are used in the described subjective test.
 
 The contents of the database follow the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) license.
-  * `cutting_orange_tuil`
-  * `fr-041_debris`
-  * `Giftmord`
 
 The dataset is part of a publication at the IEEE ISM 2023 conference (see above).
