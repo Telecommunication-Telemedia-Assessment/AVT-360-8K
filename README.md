@@ -16,7 +16,7 @@ If you use any of the data or code please cite the following paper:
 
 ## Download Videos
 Use the provided download tool for your system to get all the videos. 
-Under Linux, you need `wget` and `unzip` installed.
+Under Linux, you need `wget` and `unzip` installed and then execute the Shell-script.
 
 ```bash
 ./download.sh
@@ -35,14 +35,17 @@ This will automatically download all videos and extract them to the folders `pvs
 
 * `pvss` : Processed videos used for the subjective test
 * `srcs` : Source videos recorded with a Kandao Obsidian Pro 360° camera and stitched with Mistika VR
-* `test_data` : Recorded head rotation data (pitch, yaw, roll format), subject-related data and the responses to the questionnaires
+* `test_data` : Recorded head rotation data, subject-related data and the responses to the questionnaires
 
-## License
+## Contents
 This database consists of five different short 360° videos, that were created by TU Ilmenau and recorded with a Kandao Obsidian Pro 360° camera.
 The 360° videos were stitched using Mistika VR.
 The tools provided in this repository can be used to download the shared videos that are used in the described subjective test.
-The database also contains the recorded head rotation data (pitch, yaw, roll format), also cf. [AVTrack360](https://github.com/Telecommunication-Telemedia-Assessment/AVTrack360), as well as subject-related data and the responses to the questionnaires.
+They are available encoded with the visually lossless ProRes 422 (HQ) codec at a resolution of 7680×3840 and a framerate of 30fps (folder `srcs`).
+Further, they are available encoded with ffmpeg 5.1.3 using the libx265 codec with a CRF of 20, yuv420 chroma subsampling, a resolution of 7680×3840 and a framerate of 30fps (folder `pvss`).
+The database also contains the recorded head rotation data (pitch, yaw, roll format), also cf. [AVTrack360](https://github.com/Telecommunication-Telemedia-Assessment/AVTrack360), as well as subject-related data and the responses to the questionnaires (folder `test_data`).
 
+## License
 The contents of the database follow the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) license.
 
 The dataset is part of a publication at the IEEE ISM 2023 conference (see above).
